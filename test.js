@@ -1,7 +1,7 @@
 var fs = require('fs');
 var https = require('https');
 fs.writeFile(__dirname + "/index.html",
-                         "<h1>HTML is </h1>",
+                         "<h1>HTML is great </h1>",
                           ((error) =>
     {
         if (error) {
